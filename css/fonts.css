@@ -1,0 +1,24 @@
+@font-face{
+    font-family: 'gotham';
+    src: url(../fonts/Gotham\ Black\ Regular/GothamBlackRegular.ttf);
+}
+@font-face{
+    font-family: 'OS-regular';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'OS-bold';
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face{
+    font-family: 'OS-light';
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face{
+    font-family: 'OS-semibold';
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+@font-face{
+    font-family: 'OS-extrabold';
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
