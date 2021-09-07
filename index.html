@@ -133,37 +133,52 @@
             </div>
         </div>
     </div>
-    <section class="service">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2>Наши услуги</h2>
-                </div>
-                <div class="col-12 d-flex flex-row justify-content-between">
-                    <div class="service_title">Виды грузов</div>
-                    <div class="service_title">таможенные расходы</div>
-                    <div class="service_title">доставка грузов</div>
-                </div>
-                <div class="row" id="gruzov">
-                    <div class="col-3">
-                        <img src="img/mobila.png" alt="">
+     <section class="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Наши услуги</h2>
                     </div>
-                    <div class="col-9 ">
-                        <ul>
-                            <li>Документы</li>
-                            <li>Одежда и обувь</li>
-                            <li> Детские товары</li>
-                            <li> Электроника</li>
-                            <li> Товары для здоровья</li>
-                            <li>Товары для дома</li>
-                            <li> Сырье</li>
-                        </ul>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex flex-row justify-content-around align-items-center">
+                        <button type="button" class="btn " onclick="left()">Виды грузов</button>
+                        <button type="button" class="btn " onclick="center()">таможенные расходы</button>
+                        <button type="button" class="btn" onclick="right()">доставка грузов</button>
                     </div>
-                   
+                    <div class="col-12" id="gruzov">
+                        <div class=" d-flex flex-row justify-content-center align-items-center">
+                            <img src="img/mobila.png" alt="">
+                            <div class="gruzov-items ">
+                                <ul>
+                                    <li>Документы</li>
+                                    <li>Одежда и обувь</li>
+                                    <li> Детские товары</li>
+                                    <li> Электроника</li>
+                                    <li> Товары для здоровья</li>
+                                    <li>Товары для дома</li>
+                                    <li> Сырье</li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="col-12" id="rasxodi">
+                        <div class="rasxodi d-flex flex-row justify-content-center align-items-center">
+                            <h2>Rasxodi</h2>
+                            <img src="img/mobila.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12" id="dostavka">
+                        <div class="rasxodi d-flex flex-row justify-content-center align-items-center">
+                            <h2>Gruzov</h2>
+                            <img src="img/mobila.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+            </div>
+        </section>
     <!-- calculator -->
     <section class="calculator">
         <div class="container">
@@ -272,15 +287,12 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
-
+    <script src="./js/index.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+
 </body>
 
 </html>

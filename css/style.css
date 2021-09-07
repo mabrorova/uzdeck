@@ -233,26 +233,49 @@ margin: 25px 25px;
 .service img{
     margin: 35px 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.service .gruzov-items{
+    margin-left: 25px;
+}
+#rasxodi , #dostavka{
+    display: none;
+}
+.service button{
+    background-color: transparent;
+color: #000000;
+font-family: "Open Sans";
+font-size: 24px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+    margin: 0 25px;
+}
+.service button:hover{
+    color: #009600;
+    border: none;
+}
 /* calculator */
 .calculator {
     background-color: #f9faff;
     padding: 15px 15px ;
+}
+
+#gruzov img{
+    margin-right: 25px;
+}
+#gruzov .gruzov-items{
+    margin-left: 25px;
+color: #000000;
+font-family: "Open Sans";
+font-size: 24px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+font-variant: small-caps;
 }
 
 .calculator h2 {
