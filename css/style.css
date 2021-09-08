@@ -2,61 +2,35 @@
 
 /* .header-foot */
 .header-foot {
-    background-color: var(--green);
-    padding: 5px 5px;
+    background-color: #009600;
+    padding: 10px 0px;
 }
 
-.header-foot .foot_phone {
-    text-align: left;
-}
-
-.header-foot .foot_phone a {
+.header-foot a {
+    margin: 0 5px;
     text-decoration: none;
-}
-
-.header-foot .foot_phone a img {
-    width: 17px;
-    height: 17px;
-    margin: 0 20px;
-
-}
-
-.header-foot .foot_phone a p {
-    color: var(--white);
-    font-family: var(--OS-extrabold);
-    font-size: 18px;
+    color: #ffffff;
+    font-family: "Open Sans - Extrabold";
+    font-size: 12px;
     font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
     text-align: left;
     font-variant: small-caps;
-    display: inline-block;
-
 }
 
-.header-foot .foot_socials {
-    text-align: right;
-
+.header-foot img {
+    width: 12px;
+    height: 12px;
 }
 
-.header-foot .foot_socials a {
-    text-decoration: none;
+.header-foot .phone_call {
+    width: 10px;
+    height: auto;
+    margin-bottom: 2px;
 }
 
-.header-foot .foot_socials a img {
-    width: 17px;
-    height: 17px;
-    margin: 0 3px;
-}
-
-.header-foot .foot_socials a p {
-    display: inline-block;
-    color: var(--white);
-    font-family: var(--OS-extrabold);
-    font-size: 18px;
-    font-weight: 400;
-    text-align: left;
-    font-variant: small-caps;
-
-}
 
 /* Menu */
 
@@ -72,8 +46,8 @@
 
 .menu .menu_item a {
     color: var(--black);
-    font-family: var(--OP-regular);
-    font-size: 24px;
+    font-family: 'Open Sans';
+    font-size: 20px;
     font-weight: 400;
     text-align: left;
     font-variant: small-caps;
@@ -83,18 +57,20 @@
 
 /* header */
 header {
-    height: 100vh;
+    height: 70vh;
+    padding: 40px 40px;
     background: url(../img/hd_bg.png) no-repeat center center / cover;
     color: var(--white);
+    margin-top: 20px;
 }
 
 .header-content__title {
     color: var(--white);
-    font-family: var(--OS-extrabold);
-    font-size: 88px;
-    font-weight: 400;
+    font-family: 'Open Sans Extrabold';
+    font-size: 70px;
     font-variant: small-caps;
     letter-spacing: normal;
+
 }
 
 
@@ -104,17 +80,19 @@ header {
     border-radius: 25px;
     background-color: #009600;
     color: var(--white);
-    font-family: var(--OP-regular);
+    font-family: 'Open Sans';
     font-size: 24px;
     font-weight: 700;
     text-align: center;
     font-variant: small-caps;
-    margin: 10px 20px;
+    margin: 20px 20px;
     padding: 5px 20px;
     text-decoration: none;
 }
-.header-content__link a:hover{
+
+.header-content__link:hover {
     text-decoration: none;
+    color: white;
 }
 
 /* About */
@@ -125,39 +103,41 @@ header {
 
 .about h2 {
     color: var(--white);
-    font-family: var(--OS-extrabold);
-    font-size: 54px;
+    font-family: 'Open Sans Extrabold';
+    font-size: 45px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: 48px;
     text-align: center;
     font-variant: small-caps;
+    margin: 15px 15px;
 
 }
 
 .about p {
     color: var(--white);
     font-family: "Open Sans";
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: 24px;
     text-align: center;
     font-variant: small-caps;
+    margin: 25px 15px;
 }
 
 /* why-us */
 .why-us {
-    padding: 10px 10px;
+    padding: 30px 30px;
     background-color: #f9faff;
 }
 
 .why-us h2 {
     color: #009c41;
-    font-family: var(--OS-extrabold);
-    font-size: 54px;
+    font-family: 'Open Sans Extrabold';
+    font-size: 45px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
@@ -168,126 +148,185 @@ header {
 
 .why-us .why-us_tittle {
     color: var(--black);
-    font-family: var(--OS-regular);
-    font-size: 24px;
+    font-family: "Open Sans";
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: 48px;
     text-align: center;
     font-variant: small-caps;
+    margin: 15px 0;
 }
 
 .why-us .why-us_item {
-    margin: 20px 15px;
+    margin: 15px 25px;
     padding: 20px 20px;
 }
 
 .why-us .why-us_item img {
-    width: 80px;
+    width: 50px;
     height: auto;
-    margin-right: 5px;
+    margin-right: 20px;
 }
 
 .why-us .why-us_item p {
     display: inline-block;
     color: var(--black);
     font-family: var(--OS-regular);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
     font-variant: small-caps;
+    margin: 15px 0;
 }
 
 /* service */
-.service h2{
-color: #009c41;
-font-family: "Open Sans - Extrabold";
-font-size: 54px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 48px;
-text-align: center;
-text-transform: uppercase;
-margin: 25px 10px;
+.service h2 {
+    color: #009c41;
+    font-family: "Open Sans - Extrabold";
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px 10px;
 }
-.service_title{
-color: #000000;
-font-family: "Open Sans";
-font-size: 24px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: center;
-text-transform: uppercase;
-margin: 25px 25px;
+
+.service {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px 25px;
+    border: none;
 }
-.service_title:hover{
- color: #009c41;;
+
+.service :hover {
+    color: #009c41;
+    border: none;
 }
-.service img{
+
+.service button:hover {
+    border: none;
+    text-decoration: none;
+}
+
+.service img {
     margin: 35px 10px;
 }
-.service .gruzov-items{
-    margin-left: 25px;
-}
-#rasxodi , #dostavka{
+
+.service  #rasxodi, #dostavka{
     display: none;
 }
-.service button{
-    background-color: transparent;
-color: #000000;
-font-family: "Open Sans";
-font-size: 24px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: center;
-text-transform: uppercase;
-    margin: 0 25px;
+
+.service #gruzov img{
+    margin-right: 125px;
 }
-.service button:hover{
+.service #gruzov button{
+width: 200px;
+height: 40px;
+border-radius: 25px;
+background-color: #009c41;
+color: white;
+border: none;
+outline: none;
+cursor: pointer;
+margin: 25px 0;
+}
+
+.service #gruzov ul{
+    margin: 20px 0;
+}
+.service ul li{
+    list-style-type: circle;
+}
+
+ .service .tab__link {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 25px;
+    cursor: pointer;
+}
+
+.tablink:hover {
     color: #009600;
     border: none;
 }
+
+.active__on {
+    color: #009600 !important;
+    border: none;
+}
+
+.active__off {
+    color: #000;
+    border: none;
+}
+
+.service .tabcontent {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 15px 15px;
+
+}
+
+.service img {
+    width: 15%;
+    margin-right: 25px;
+    height: auto;
+}
+
+.service li {
+    margin-left: 25px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-variant: small-caps;
+}
+
 /* calculator */
 .calculator {
     background-color: #f9faff;
-    padding: 15px 15px ;
-}
-
-#gruzov img{
-    margin-right: 25px;
-}
-#gruzov .gruzov-items{
-    margin-left: 25px;
-color: #000000;
-font-family: "Open Sans";
-font-size: 24px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 30px;
-text-align: left;
-font-variant: small-caps;
+    padding: 15px 15px;
 }
 
 .calculator h2 {
     color: var(--green);
-    font-family: var(--gotham);
+    font-family: 'Open Sans Extrabold';
     font-weight: 400;
+    font-size: 35px;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin: 25px 25px;
 }
 
 .calculator_item {
@@ -296,77 +335,89 @@ font-variant: small-caps;
     margin: 15px 15px;
 }
 
+.calculator .calculator_item label {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-variant: small-caps;
+
+}
+
 .calculator_item input {
-width: 141px;
-height: 46px;
-border-radius: 23px;
-border: 3px solid #626262;
-margin: 25px 0px;
-    
+    width: 125px;
+    height: 30px;
+    border-radius: 23px;
+    border: 3px solid #626262;
+    margin: 10px 0px;
+    outline: none;
+
+
 }
-.calculator_item input::placeholder{ 
-color: #bcbcbc;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: left;
-font-variant: small-caps;
-padding-left:  8px;
+
+.calculator img {
+    width: 70%;
 }
-.calculator_item label{
-color: #000000;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: left;
-font-variant: small-caps;
+
+.calculator_item input::placeholder {
+    color: #bcbcbc;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-variant: small-caps;
+    padding-left: 8px;
 }
 
 
-.fourthrow p{
-color: #000000;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: left;
-margin: 0 10px;
-font-variant: small-caps;
+.fourthrow p {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin: 0 10px;
+    font-variant: small-caps;
 }
-.fourthrow label{
-color: #000000;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: left;
-font-variant: small-caps;
+
+.fourthrow label {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-variant: small-caps;
 }
-.fourthrow .form-check{
+
+.fourthrow .form-check {
     margin: 0 20px;
 }
-.fifthrow button{
-margin: 25px 10px;
-border-radius: 25px;
-background-color: #009600;
-border: none;
-color: white;
-font-family: "Open Sans";
-font-size: 20px;
-font-style: normal;
-letter-spacing: normal;
-text-align: center;
-font-variant: small-caps;
+
+.fifthrow button {
+    margin: 25px 10px;
+    border-radius: 25px;
+    background-color: #009600;
+    border: none;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-variant: small-caps;
 }
 
 
@@ -383,13 +434,14 @@ font-variant: small-caps;
 .connect h2 {
     color: #ffffff;
     font-family: "Open Sans - Extrabold";
-    font-size: 54px;
+    font-size: 40px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
+    margin: 25px 0px;
 }
 
 .connect input {
@@ -400,7 +452,9 @@ font-variant: small-caps;
     align-items: center;
     background-color: #009600;
     color: #ffffff;
-    margin: 10px 10px;
+    width: 213px;
+    height: 40px;
+    outline: none;
 }
 
 .connect input::placeholder {
@@ -420,7 +474,8 @@ font-variant: small-caps;
     line-height: normal;
     text-align: right;
     font-variant: small-caps;
-    margin: 10px 10px;
+    margin: 0px 10px;
+    outline: none;
 }
 
 /* map */
@@ -428,33 +483,40 @@ font-variant: small-caps;
     text-align: center;
     color: #009600;
     font-family: "Open Sans - Extrabold";
-    font-size: 54px;
+    font-size: 40px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-transform: uppercase;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 iframe {
-    width: 1600px;
-    height: 500px;
-    margin: 0;
+ width: 100%;
+ height: 100%;
 }
 
-footer{
+footer {
+    margin-top: -10px;
     background-color: #009c41;
 }
-footer p{
-color: #ffffff;
-font-family: "Open Sans - Semibold";
-font-size: 18px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: center;
-font-variant: small-caps;
-margin: 10px 0;
+.map__item {
+    width: 100%;
+}
+.map__item iframe {
+    width: 100%;
+    height: 300px;
+}
+footer p {
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 10px 0;
 }

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,35 +13,39 @@
 
 <body>
     <!-- header-foot -->
-    <div class="header-foot">
+    <section class="header-foot">
         <div class="container">
             <div class="row">
-                <div class="col-12 d-flex justify-content-between align-items-center">
-                    <div class="foot_phone">
-                        <a href="#">
-                            <img src="img/phone-call.png" alt="">
-                            <p>Наш телефон +99871 207 5225</p>
-                        </a>
-
+                <div class="col-12 d-flex flex-row justify-content-between align-items-center">
+                    <div class="header-foot_item d-flex flex-row ">
+                        <a href="#"> <img src="img/phone-call.png" alt="" class="phone_call"> </a>
+                        <a href="#">Наш телефон +99871 207 5225 </a>
                     </div>
-                    <div class="foot_socials">
+                    <div class="header-foot_item d-flex flex-row">
                         <a href="#">
                             <img src="img/instagram.png" alt="">
-                            <img src="img/facebook.png" alt="">
-                            <img src="img/telegram.png" alt="">
-                            <p>@cdekoperator</p>
+                            <a href="#">
+                                <img src="img/facebook.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="img/telegram.png" alt="">
+                            </a>
+                            <a href="#">
+
+                                <p>@cdekoperator</p>
+                            </a>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- menu -->
     <div class="menu">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-4">
-                    <a class="logo" href="">
+                    <a class="logo" href="#">
                         <img src="img/logo.png" alt="">
                     </a>
                 </div>
@@ -61,7 +64,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="header-content">
+                    <div class="header-content d-flex flex-column justify-content-center ">
                         <h1 class="header-content__title  mt-5">Быстрая почта по <br> всему миру</h1>
                         <a class="header-content__link" href="#">Оставить заявку</a>
                     </div>
@@ -101,31 +104,31 @@
             </div>
             <div class="row">
                 <div class="col-auto">
-                    <div class="why-us_item  mb-5">
+                    <div class="why-us_item   d-flex  align-items-center justify-content-center">
                         <img src="img/call-center.png" alt="">
                         <p>ОНЛАЙН КОНСУЛЬТАЦИЯ</p>
                     </div>
-                    <div class="why-us_item mb-5 ">
+                    <div class="why-us_item   d-flex  align-items-center justify-content-center">
                         <img src="img/group.png" alt="">
                         <p>КВАЛИФИЦИРОВАННЫЙ <br> ПЕРСОНАЛ</p>
                     </div>
                 </div>
                 <div class="col-auto">
-                    <div class="why-us_item mb-5 ">
+                    <div class="why-us_item   d-flex  align-items-center justify-content-center">
                         <img src="img/security.png" alt="">
                         <p>КАЧЕСТВО ВЫСШЕГО <br> УРОВНЯ</p>
                     </div>
-                    <div class="why-us_item mb-5 ">
+                    <div class="why-us_item   d-flex  align-items-center justify-content-center">
                         <img src="img/cargo.png" alt="">
                         <p>ЛЮБЫЕ ФОРМЫ <br> ПОСЫЛОК</p>
                     </div>
                 </div>
                 <div class="col-auto">
-                    <div class="why-us_item mb-5">
+                    <div class="why-us_item d-flex  align-items-center justify-content-center">
                         <img src="img/budget.png" alt="">
                         <p>УДОВЛЕТВОРЕННАЯ <br> СТОИМОСТЬ</p>
                     </div>
-                    <div class="why-us_item mb-5">
+                    <div class="why-us_item  d-flex  align-items-center justify-content-center">
                         <img src="img/cryptocurrency.png" alt="">
                         <p>ДОВЕРИЯ НА 100%</p>
                     </div>
@@ -133,52 +136,53 @@
             </div>
         </div>
     </div>
-     <section class="service">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Наши услуги</h2>
+   <section class="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Наши услуги</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-center align-items-center tab__link">
+                    <button type="button" id="button1" class="tab__link" onclick="left()">Виды грузов</button>
+                    <button type="button" id="button2" class="tab__link" onclick="center()">таможенные расходы</button>
+                    <button type="button" id="button3" class="tab__link" onclick="right()">доставка грузов</button>
+                </div>
+                <div class="col-12" id="gruzov">
+                    <div  class=" d-flex flex-row justify-content-center align-items-center">
+                        <img src="img/mobila.png" alt="">
+                        <div class="gruzov-items ">
+                            <ul>
+                                <li>Документы</li>
+                                <li>Одежда и обувь</li>
+                                <li> Детские товары</li>
+                                <li> Электроника</li>
+                                <li> Товары для здоровья</li>
+                                <li>Товары для дома</li>
+                                <li> Сырье</li>
+                            </ul>
+                            <button type="button" class="gruzov_button">Оставить заявку</button>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="col-12" id="rasxodi">
+                    <div  class=" d-flex flex-row justify-content-center align-items-center">
+                        <img src="img/mobila.png" alt="">
+                        <h2>Rasxodi</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 d-flex flex-row justify-content-around align-items-center">
-                        <button type="button" class="btn " onclick="left()">Виды грузов</button>
-                        <button type="button" class="btn " onclick="center()">таможенные расходы</button>
-                        <button type="button" class="btn" onclick="right()">доставка грузов</button>
-                    </div>
-                    <div class="col-12" id="gruzov">
-                        <div class=" d-flex flex-row justify-content-center align-items-center">
-                            <img src="img/mobila.png" alt="">
-                            <div class="gruzov-items ">
-                                <ul>
-                                    <li>Документы</li>
-                                    <li>Одежда и обувь</li>
-                                    <li> Детские товары</li>
-                                    <li> Электроника</li>
-                                    <li> Товары для здоровья</li>
-                                    <li>Товары для дома</li>
-                                    <li> Сырье</li>
-                                </ul>
-                            </div>
-                        </div>
-                    
-                    </div>
-                    <div class="col-12" id="rasxodi">
-                        <div class="rasxodi d-flex flex-row justify-content-center align-items-center">
-                            <h2>Rasxodi</h2>
-                            <img src="img/mobila.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-12" id="dostavka">
-                        <div class="rasxodi d-flex flex-row justify-content-center align-items-center">
-                            <h2>Gruzov</h2>
-                            <img src="img/mobila.png" alt="">
-                        </div>
+                <div class="col-12" id="dostavka">
+                    <div  class=" d-flex flex-row justify-content-center align-items-center">
+                        <img src="img/mobila.png" alt="">
+                        <h2>gruzov</h2>
                     </div>
                 </div>
             </div>
-            </div>
-        </section>
+        </div>
+        </div>
+    </section>
     <!-- calculator -->
     <section class="calculator">
         <div class="container">
@@ -187,7 +191,7 @@
                     <h2> Калькулятор стоимости</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row d-flex flex-row justify-content-center align-content-center">
                 <div class="col-6 d-flex flex-column">
                     <div class="firstrow d-flex flex-row">
                         <div class="calculator_item">
@@ -238,7 +242,7 @@
                         <button type="button" value="submit" class="btn ">Рассчитать</button>
                     </div>
                 </div>
-                <div class="col-6 d-flex flex-column">
+                <div class="col-6 d-flex flex-column justify-content-center align-items-end">
                     <img src="img/calc_pic.png" alt="">
                 </div>
             </div>
@@ -251,15 +255,11 @@
                 <div class="col-12">
                     <h2>Форма обратной связи</h2>
                 </div>
-                <div class="col-4">
+                <div class="col-12 d-flex justify-content-around align-content-center">
                     <input type="text" name="name" id="name" placeholder="Имя" class="form-control">
-                </div>
-                <div class="col-4">
                     <input type="phone" name="phone" id="phone" placeholder="Телефон" class="form-control">
-                </div>
-                <div class="col-4">
                     <button class="button" value="submit" type="button">Отправить</button>
-
+                    
                 </div>
             </div>
         </div>
@@ -273,10 +273,14 @@
                 </div>
             </div>
         </div>
+        <div class="map__item">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191884.74398166826!2d69.13927987252913!3d41.282770557378555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sen!2sus!4v1572350798698!5m2!1sen!2sus"
+            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        
+        </div>
+             
     </section>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191884.74398166826!2d69.13927987252913!3d41.282770557378555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sen!2sus!4v1572350798698!5m2!1sen!2sus"
-        frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     <!-- footer -->
     <footer>
         <div class="container">
