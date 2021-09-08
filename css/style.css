@@ -30,7 +30,9 @@
     height: auto;
     margin-bottom: 2px;
 }
-
+.header-foot_item a p {
+    margin: 0;
+}
 
 /* Menu */
 
