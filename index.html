@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,25 +41,28 @@
             </div>
         </div>
     </section>
-    <!-- menu -->
-    <div class="menu">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-4">
-                    <a class="logo" href="#">
-                        <img src="img/logo.png" alt="">
-                    </a>
-                </div>
-                <div class="col-8 d-flex align-items-center menu_item">
-                    <a href="#">В начало</a>
-                    <a href="#">О нас</a>
-                    <a href="#">Преимущество</a>
-                    <a href="#">Услуги</a>
-                    <a href="#">Контакты</a>
-                </div>
+    <!-- nav -->
+    <section>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                        <a href="#" class="navbar-brand">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                        <ul class="nav navbar-nav d-flex flex-row">
+                            <li class="active"> <a href="#">В начало</a> </li>
+                            <li class="active"> <a href="#">О нас</a> </li>
+                            <li class="active"> <a href="#">Преимущество</a> </li>
+                            <li class="active"> <a href="#">Услуги</a> </li>
+                            <li class="active"> <a href="#">Контакты</a> </li>
+                        </ul>
             </div>
-        </div>
-    </div>
+            </div>
+            </div>
+
+        </nav>
+
+
+    </section>
     <!-- header -->
     <header>
         <div class="container">
@@ -136,7 +140,7 @@
             </div>
         </div>
     </div>
-   <section class="service">
+    <section class="service">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -150,9 +154,9 @@
                     <button type="button" id="button3" class="tab__link" onclick="right()">доставка грузов</button>
                 </div>
                 <div class="col-12" id="gruzov">
-                    <div  class=" d-flex flex-row justify-content-center align-items-center">
+                    <div class=" d-flex flex-row justify-content-center align-items-center">
                         <img src="img/mobila.png" alt="">
-                        <div class="gruzov-items ">
+                        <div class="service-items ">
                             <ul>
                                 <li>Документы</li>
                                 <li>Одежда и обувь</li>
@@ -162,21 +166,44 @@
                                 <li>Товары для дома</li>
                                 <li> Сырье</li>
                             </ul>
-                            <button type="button" class="gruzov_button">Оставить заявку</button>
+                            <button type="button" class="zayavka_button">Оставить заявку</button>
                         </div>
                     </div>
-                
                 </div>
                 <div class="col-12" id="rasxodi">
-                    <div  class=" d-flex flex-row justify-content-center align-items-center">
+                    <div class=" d-flex flex-row justify-content-center align-items-center">
                         <img src="img/mobila.png" alt="">
-                        <h2>Rasxodi</h2>
+                        <div class="service-items ">
+                            <ul>
+                                <li>Документы</li>
+                                <li>Одежда и обувь</li>
+                                <li> Детские товары</li>
+                                <li> Электроника</li>
+                                <li> Товары для здоровья</li>
+                                <li>Товары для дома</li>
+                                <li> Сырье</li>
+                            </ul>
+                            <button type="button" class="zayavka_button">Оставить заявку</button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12" id="dostavka">
-                    <div  class=" d-flex flex-row justify-content-center align-items-center">
-                        <img src="img/mobila.png" alt="">
-                        <h2>gruzov</h2>
+                    <div class=" d-flex flex-row justify-content-center align-items-center">
+                        <div class=" d-flex flex-row justify-content-center align-items-center">
+                            <img src="img/mobila.png" alt="">
+                            <div class="service-items ">
+                                <ul>
+                                    <li>Документы</li>
+                                    <li>Одежда и обувь</li>
+                                    <li> Детские товары</li>
+                                    <li> Электроника</li>
+                                    <li> Товары для здоровья</li>
+                                    <li>Товары для дома</li>
+                                    <li> Сырье</li>
+                                </ul>
+                                <button type="button" class="zayavka_button">Оставить заявку</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -199,8 +226,8 @@
                             <input type="text" name="ot" id="ot" placeholder="от">
                         </div>
                         <div class="calculator_item">
-                            <label for="do" class="none">.</label>
-                            <input type="text" name="do" id="do" placeholder="до">
+                            <label for="do" class="none"></label>
+                            <input type="text" name="do" id="do" placeholder="до" class="calculator_item_name">
                         </div>
                     </div>
                     <div class="secondrow d-flex flex-row">
@@ -229,14 +256,15 @@
                     </div>
                     <div class="fourthrow d-flex flex-row">
                         <p>ДОПОЛНИТЕЛЬНЫЕ <br> УСЛУГИ</p>
-                        <div class="form-check ">
+                        <div class="form-check d-flex align-items-center  ">
                             <input class="form-check-input" type="radio" name="straxovania" id="straxovania" />
                             <label class="form-check-label" for="straxovania"> страхование </label>
                         </div>
-                        <div class="form-check ">
-                            <input class="form-check-input" type="radio" name="dostavka" id="dostavka" />
-                            <label class="form-check-label" for="dostavka"> Экспресс доставка </label>
+                        <div class="form-check d-flex align-items-center  ">
+                            <input class="form-check-input" type="radio" name="dostavka2" id="dostavka2" />
+                            <label class="form-check-label" for="dostavka2"> Экспресс доставка </label>
                         </div>
+                      
                     </div>
                     <div class="fifthrow d-flex flex-row">
                         <button type="button" value="submit" class="btn ">Рассчитать</button>
@@ -259,7 +287,7 @@
                     <input type="text" name="name" id="name" placeholder="Имя" class="form-control">
                     <input type="phone" name="phone" id="phone" placeholder="Телефон" class="form-control">
                     <button class="button" value="submit" type="button">Отправить</button>
-                    
+
                 </div>
             </div>
         </div>
@@ -275,11 +303,11 @@
         </div>
         <div class="map__item">
             <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191884.74398166826!2d69.13927987252913!3d41.282770557378555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sen!2sus!4v1572350798698!5m2!1sen!2sus"
-            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191884.74398166826!2d69.13927987252913!3d41.282770557378555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sen!2sus!4v1572350798698!5m2!1sen!2sus"
+                frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
         </div>
-             
+
     </section>
     <!-- footer -->
     <footer>

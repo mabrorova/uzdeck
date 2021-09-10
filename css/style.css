@@ -33,28 +33,23 @@
 .header-foot_item a p {
     margin: 0;
 }
+/* navbar */
 
-/* Menu */
-
-.menu {
-    background-color: var(--white);
-    padding: 25px 25px;
+nav ul li a{
+margin: 20px;
+color: #000000;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 16px;
+text-align: left;
+font-variant: small-caps;
 }
-
-.logo {
-    width: 267px;
-    height: 57px;
-}
-
-.menu .menu_item a {
-    color: var(--black);
-    font-family: 'Open Sans';
-    font-size: 20px;
-    font-weight: 400;
-    text-align: left;
-    font-variant: small-caps;
-    margin: 0 15px;
+nav ul li a:hover{
     text-decoration: none;
+    color: #009600;
 }
 
 /* header */
@@ -63,7 +58,6 @@ header {
     padding: 40px 40px;
     background: url(../img/hd_bg.png) no-repeat center center / cover;
     color: var(--white);
-    margin-top: 20px;
 }
 
 .header-content__title {
@@ -113,7 +107,7 @@ header {
     line-height: 48px;
     text-align: center;
     font-variant: small-caps;
-    margin: 15px 15px;
+    margin: 15px 0px;
 
 }
 
@@ -127,7 +121,6 @@ header {
     line-height: 24px;
     text-align: center;
     font-variant: small-caps;
-    margin: 25px 15px;
 }
 
 /* why-us */
@@ -158,7 +151,7 @@ header {
     line-height: 48px;
     text-align: center;
     font-variant: small-caps;
-    margin: 15px 0;
+    margin: 15px 0px;
 }
 
 .why-us .why-us_item {
@@ -197,7 +190,7 @@ header {
     line-height: 48px;
     text-align: center;
     text-transform: uppercase;
-    margin: 25px 10px;
+    margin: 15px 0px;
 }
 
 .service {
@@ -224,18 +217,29 @@ header {
     text-decoration: none;
 }
 
-.service img {
-    margin: 35px 10px;
-}
-
 .service  #rasxodi, #dostavka{
     display: none;
 }
 
-.service #gruzov img{
+.service #gruzov, #rasxodi, #dostavka img{
     margin-right: 125px;
 }
-.service #gruzov button{
+.service #gruzov img{
+    width: 200px;
+    height: 200px;
+    margin-right: 125px;
+}
+.service #rasxodi img{
+    width: 200px;
+    height: 200px;
+    margin-right: 125px;
+}
+.service #dostavka img{
+    width: 200px;
+    height: 200px;
+    margin-right: 125px;
+}
+.service .zayavka_button{
 width: 200px;
 height: 40px;
 border-radius: 25px;
@@ -247,7 +251,7 @@ cursor: pointer;
 margin: 25px 0;
 }
 
-.service #gruzov ul{
+.service .service-items ul{
     margin: 20px 0;
 }
 .service ul li{
@@ -328,13 +332,16 @@ margin: 25px 0;
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
-    margin: 25px 25px;
+    margin: 15px 0px;
 }
 
 .calculator_item {
     display: flex;
     flex-direction: column;
     margin: 15px 15px;
+}
+.calculator .calculator_item .calculator_item_name{
+    margin-top: 26px;
 }
 
 .calculator .calculator_item label {
@@ -356,6 +363,7 @@ margin: 25px 0;
     border-radius: 23px;
     border: 3px solid #626262;
     margin: 10px 0px;
+    padding: 10px 10px;
     outline: none;
 
 
@@ -375,7 +383,7 @@ margin: 25px 0;
     line-height: normal;
     text-align: left;
     font-variant: small-caps;
-    padding-left: 8px;
+    padding: 0 10px;
 }
 
 
@@ -443,7 +451,7 @@ margin: 25px 0;
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
-    margin: 25px 0px;
+    margin: 15px 0px;
 }
 
 .connect input {
@@ -491,7 +499,7 @@ margin: 25px 0;
     letter-spacing: normal;
     line-height: normal;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 15px 0px;
 }
 
 iframe {
